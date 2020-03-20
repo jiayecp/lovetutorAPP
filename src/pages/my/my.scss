@@ -1,7 +1,77 @@
 page-my {
+    *{
+        margin: 0 auto;
+    }
     .header{
-        color:#157DEC;
-        // width: 100%;
-        height: 100%;
+        background:#157DEC;
+        width: 100%;
+        height: 30%;
+    }
+    .message{
+        float: right;
+        color: white;
+        ion-icon{
+            // width: 50px;
+            margin:10px 10px 0 0;
+            font-size: 30px;
+        }
+    }
+    .metou{
+        background:white;
+        border: #D1D0CE solid 1px;
+        border-radius: 10px;
+        width: 80%;
+        height: 25%;
+        margin-top: -28%; 
+    }
+    .touxiang{
+        float: left;
+        width: 32%;
+        height: 32%;
+        border-radius: 55%;
+        margin-top:-10%; 
+        margin-left: 5%;
+    }
+    .tname{
+        // float: left;
+        font-size: 19px;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+    .jibie{
+        font-size: 16px;
+        color: #FFD801;
+        font-style: italic;
+        margin-top: -20px;
+        margin-left: 150px
+    }
+    .mycon{
+        width: 80%;
+        margin-top: 20px;
+        .mynum{
+            text-align: center;
+            width: 25%;
+            margin: 4%;
+            float: left;
+        }
+    }
+    .cencon{
+        margin-top: 7%;
+        width: 80%;
+        border-radius: 10px;
+        border: #D1D0CE solid 1px;
+        .course{
+            border-bottom: #D1D0CE solid 1px;
+            height:40px;
+            line-height: 40px;
+            .miaoshu{
+                margin-left: 8px;
+            }
+            ion-icon{
+                float: right;
+                margin-right: 10px;
+                margin-top: -30px
+            }
+        }
     }
 }
