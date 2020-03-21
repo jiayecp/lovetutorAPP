@@ -1,3 +1,164 @@
 page-home {
+    .top{
+        margin-top:-0.5rem;
+        margin-left:1rem;
+        height: 4rem;
+        .ion{
+            margin-top:1.5rem;
+        }
+        .ion2{
+            left: 4rem;
+            top:0.5rem;
+            position: relative;
+            color:rgba(0,0,0,0.8);
+            font-size: 2.5rem;
+        }
+        .ion3{
+            left: 23rem;
+            top:0.5rem;
+            position: relative;
+            color:black;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .search{
+            position: absolute;
+            width: 20rem;
+            margin-top: 1rem;
+            margin-left: 1.2rem;
+            height: 3rem;
+            text-align: center;
+            -moz-border-radius: 11px;
+            -khtml-border-radius: 11px;
+            -webkit-border-radius: 11px;
+            border: none;
+            border-radius: 15px;
+            background-color: rgba(0,0,0,0.1);
+        }
+    }
+    ion-slides{
+        width: 100%;
+        height: 25%;
+    }
+   .lunbo{
+       margin-top: 2rem;
+   }
+   .cricle{
+        width: 100%;
+        margin-left: -2rem;
+    li{
+        position: relative;
+        float: left;
+        margin:1rem 0 0 5%;
+        p{
+            font-size: 1.5rem;
+        }
+        .xiao{
+            width:4.8rem;
+            height: 4.5rem;
+            background-color: #4EFEB3;
+            text-align: center;
+            -moz-border-radius: 13px;
+            -khtml-border-radius: 13px;
+            -webkit-border-radius: 13px;
+            border-radius: 18px;
+            font-size: 3rem;
+            font-weight: bold;
+            color: azure;
+        }
+        .chu{
+            width:4.8rem;
+            height: 4.5rem;
+            background-color:#d3a4ff;
+            text-align: center;
+            -moz-border-radius: 13px;
+            -khtml-border-radius: 13px;
+            -webkit-border-radius: 13px;
+            border-radius: 18px;
+            font-size: 3rem;
+            font-weight: bold;
+            color: azure;
+        }
+        .gao{
+            width:4.8rem;
+            height: 4.5rem;
+            background-color: #FFA042;
+            text-align: center;
+            -moz-border-radius: 13px;
+            -khtml-border-radius: 13px;
+            -webkit-border-radius: 13px;
+            border-radius: 18px;
+            font-size: 3rem;
+            font-weight: bold;
+            color: azure;
+        }
+        .yuyan{
+            width:4.8rem;
+            height:4.5rem;
+            background-color: #00E3E3;
+            text-align: center;
+            -moz-border-radius: 13px;
+            -khtml-border-radius: 13px;
+            -webkit-border-radius: 13px;
+            border-radius: 18px;
+            font-size: 3rem;
+            font-weight: bold;
+            color: azure;
+        }
 
+    }
+   }
+   .bot{
+       padding-top: 9rem;
+       li{
+            position: relative;
+            float: left;
+            margin:0 5rem 0 13%;
+       }
+       .icon1{
+           color:#0080FF;
+           font-size: 3.5rem;
+        }
+       .icon2{
+        color:#F75000;
+        font-size: 3.5rem;
+        }
+        .p1{
+            margin-left: -1rem;
+        }
+        .bot1{
+            position: absolute;
+            width: 9rem;
+            height: 2.2rem;
+            text-align: center;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            background-color: #0080FF;
+            font-size: 1.5rem;;
+            margin-left: -3rem;
+            margin-top: 1rem;
+            color: aliceblue;
+        }
+        .p2{
+            margin-left: -1rem;
+        }
+        .bot2{
+            position: absolute;
+            width: 9rem;
+            height: 2.2rem;
+            text-align: center;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            background-color: #F75000;
+            font-size: 1.5rem;;
+            margin-left: -3rem;
+            margin-top: 1rem;
+            color: aliceblue;
+        }
+    }
 }
+
