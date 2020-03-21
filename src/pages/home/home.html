@@ -1,9 +1,50 @@
-<!-- <ion-header>
-  <ion-navbar>
-    <ion-title></ion-title>
-  </ion-navbar>
-</ion-header> -->
 
 <ion-content padding>
-  
+  <div class="top">
+    <ion-icon ios="ios-pin" md="md-pin" class="ion"></ion-icon>
+    <ion-icon name="md-search" class="ion2"></ion-icon>
+    <input type="search" placeholder="教师/机构/学科" class="search">
+    <ion-icon name="ios-text-outline" class="ion3" (click)="pushSearch()"></ion-icon>
+  </div>
+  <div class="lunbo">
+    <ion-slides pager="true" autoplay="2000" loop="true">
+      <ion-slide>
+        <div><img src="../../assets/imgs/logo1.jpg" /> </div>
+      </ion-slide>
+      <ion-slide>
+        <div><img src="../../assets/imgs/logo2.jpg" /></div>
+      </ion-slide>
+      <ion-slide>
+        <div><img src="../../assets/imgs/logo3.jpg" /></div>
+      </ion-slide>
+    </ion-slides>
+  </div>
+  <div class="bottom">
+      <ul class="cricle">
+        <li>
+          <div class="xiao">小</div>
+          <p text-center>小学</p>
+        </li>
+        <li>
+          <div class="chu">初</div>
+          <p text-center>初中</p>
+        </li>
+        <li>
+          <div class="gao">高</div>
+          <p text-center>高中</p>
+        </li>
+        <li>
+          <div class="yuyan">语</div>
+          <p text-center>语言</p>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          
+        </li>
+      </ul>
+    <div>
+
+    </div>
+  </div>
 </ion-content>
