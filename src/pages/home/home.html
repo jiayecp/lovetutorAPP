@@ -19,7 +19,7 @@
       </ion-slide>
     </ion-slides>
   </div>
-  <div class="bottom">
+  <div>
     <div class="cricle">
       <ul>
         <li>
@@ -45,17 +45,60 @@
         <li>
           <ion-icon name="md-person" class="icon1"></ion-icon>
           <p class="p1">我是学员</p>
-          <div class="bot1">快速找家教</div>
+          <div class="bot1" (click)="pushTeacher()">快速找家教</div>
         </li>
         <li>
           <ion-icon name="md-person" class="icon2"></ion-icon>
           <p class="p2">我是教员</p>
-          <div class="bot2">我要做教员</div>
+          <div class="bot2" (click)="pushStudent()">我要做教员</div>
         </li>
       </ul>
     </div>
-    <div>
-
-    </div>
+    <div class="last">
+      <div style="border:0.1px solid #CCC"><hr /></div>
+      <div class="last1">
+        <div><p class="mingshi">名师推荐</p><p class="more">更多</p><ion-icon name="ios-arrow-forward"></ion-icon></div>
+      </div>
+      <div class="last2">
+      <ul>
+        <li>
+          <img src="../../assets/imgs/timg1.jpg"/>
+          <p>张老师</p>
+          <p>河北师范大学</p>
+          <div>数学</div>
+        </li>
+        <li>
+          <img src="../../assets/imgs/timg2.jpg"/>
+          <p>王老师</p>
+          <p>河北科技大学</p>
+          <div>生物</div>
+        </li>
+        <li>
+          <img src="../../assets/imgs/timg3.jpg"/>
+          <p>李老师</p>
+          <p>河北师范大学</p>
+          <div>化学</div>
+        </li>
+        <li>
+          <img src="../../assets/imgs/timg4.jpg"/>
+          <p>秦老师</p>
+          <p>河北师范大学</p>
+          <div>物理</div>
+        </li>
+        <li>
+          <img src="../../assets/imgs/timg5.jpg"/>
+          <p>孙老师</p>
+          <p>河北科技大学</p>
+          <div>英语</div>
+        </li>
+        <li>
+          <img src="../../assets/imgs/timg6.jpg"/>
+          <p>郑老师</p>
+          <p>河北师范大学</p>
+          <div>语文</div>
+        </li>
+      </ul>
+      </div>
+   </div>
   </div>
 </ion-content>
