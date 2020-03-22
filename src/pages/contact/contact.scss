@@ -1,3 +1,66 @@
 page-contact {
-
+    .title{
+        margin-top: -1.5rem;
+        background-color:  #157DEC;
+        text-align: center;
+        height: 3.5rem;
+        line-height: 3.5rem;
+        h5{
+            position: relative;
+            top: 0.8rem;
+            color: white;
+        }
+    }
+    .left{
+        float: left;
+        margin-top: 1rem;
+        margin-left: 0rem;
+        width: 25%;
+        border: #D1D0CE solid 1px;
+        .fast{
+            border-bottom: #D1D0CE solid 1px;
+            height:40px;
+            line-height: 40px;
+            text-align: center;
+        }
+        .course{
+            border-bottom: #D1D0CE solid 1px;
+            height:42px;
+            line-height: 42px;
+            //color: aliceblue;
+            //background-color:  #157DEC;
+            text-align: center;
+        }
+    }
+    .right{
+        float:right;
+        width: 70%;
+        margin-top: 1rem;
+        margin-right: 0.5rem;
+        .right1{
+            border:#D1D0CE solid 1px;
+            margin-right: 1.2rem;
+            width: 246px;
+            height:40px;
+            line-height: 40px;
+            text-align: center;
+            //color: aliceblue;
+            //background-color:  #FFAF60;
+            border-radius: 6px;
+        }
+        .right2{
+            float: left;
+            position: relative;
+            .detil{
+                float: left;
+                margin: 0.5rem 1.2rem 0.3rem 1.8%;
+                width: 112px;
+                border:#D1D0CE solid 1px;
+                height:32px;
+                line-height: 32px;
+                text-align: center;
+                border-radius: 6px;
+            }
+        }
+    }
 }
