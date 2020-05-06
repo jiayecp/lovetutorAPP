@@ -10,4 +10,8 @@ export class ChatPage {
   constructor(public navCtrl: NavController) {
 
   }
+
+  close(){
+    this.navCtrl.pop();
+  }
 }

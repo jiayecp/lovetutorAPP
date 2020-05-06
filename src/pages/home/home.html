@@ -4,7 +4,7 @@
     <ion-icon ios="ios-pin" md="md-pin" class="ion"></ion-icon>
     <ion-icon name="md-search" class="ion2"></ion-icon>
     <input type="search" placeholder="教师/机构/学科" class="search">
-    <ion-icon name="ios-text-outline" class="ion3" (click)="pushSearch()"></ion-icon>
+    <ion-icon name="ios-text-outline" class="ion3" (click)="pushChat()"></ion-icon>
   </div>
   <div class="lunbo">
     <ion-slides pager="true" autoplay="2000" loop="true">
@@ -45,12 +45,12 @@
         <li>
           <ion-icon name="md-person" class="icon1"></ion-icon>
           <p class="p1">我是学员</p>
-          <div class="bot1" (click)="pushTeacher()">快速找家教</div>
+          <div class="bot1">快速找家教</div>
         </li>
         <li>
           <ion-icon name="md-person" class="icon2"></ion-icon>
           <p class="p2">我是教员</p>
-          <div class="bot2" (click)="pushStudent()">我要做教员</div>
+          <div class="bot2">我要做教员</div>
         </li>
       </ul>
     </div>
