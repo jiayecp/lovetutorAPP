@@ -9,16 +9,8 @@ export class ChatPage {
   
   constructor(public navCtrl: NavController) {
   }
-<<<<<<< .mine
-  // setBackButtonText(){
-  //   this.navCtrl.pop();
-  // }
-  
-||||||| .r9
-=======
 
   close(){
     this.navCtrl.pop();
   }
->>>>>>> .r10
 }
