@@ -20,7 +20,7 @@ export class HomePage {
   pushStudent(){
     this.navCtrl.push(ApplyteachPage);
   }
-  pushSearch(){
+  pushChat(){
     this.navCtrl.push(ChatPage);
   }
 
