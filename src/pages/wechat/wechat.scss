@@ -1,0 +1,101 @@
+.con{
+    background:	#F5F5F5;
+}
+.weheader{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: white;
+    border: 1px solid #ADADAD;
+    color: black;
+    font-size: 20px;
+    .back{
+        font-size: 25px;
+        color: black;
+        float: left;
+        line-height: 40px;
+        margin-left: 5px;
+    }
+    .phone{
+        font-size: 31px;
+        color: darkcyan;
+        float: right;
+        margin-top: -35px;
+        margin-right: 7px;
+    }
+}
+.teas{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    .lef{
+        width: 50px;
+        float: left;
+        img{
+            border-radius: 50%;
+        }
+
+    }
+    .rig{
+        float: left;
+        margin-left: 10px;
+        .name{
+            
+        }
+        .hua{
+            margin-top: 7px;
+            font-size: 17px;
+        }
+    }
+}
+.stus{
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    .left{
+        width: 60%;
+        .hua{
+            background-color:rgb(4, 121, 199);
+            font-size: 17px;
+            line-height: 40px;
+            border-radius: 6px    
+        }
+
+    }
+    .right{
+        float: right;
+        margin-right: 15px;
+        margin-top: -40px;
+        width: 50px;
+        // margin-left: 10px;
+       img{
+        border-radius: 50%;
+       }
+    }
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    line-height: 40px;
+    .mai{
+        font-size: 25px;
+        color: #00FFCC;
+        margin-left: 13px;
+    }
+    .qing{
+        font-size: 23px;
+        margin-left: 10px;
+        color: #00FFCC;
+    }
+    .fa{
+        margin-left: 10px;
+        font-size: 22px;
+        color: #00FFCC;
+    }
+    .kuang{
+        margin-left: 13px;
+        width: 250px;
+        height: 30px;
+    }
+}
