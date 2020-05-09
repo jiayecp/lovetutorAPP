@@ -9,8 +9,8 @@ export class ApplyteachPage {
   
   constructor(public navCtrl: NavController) {
   }
-  // setBackButtonText(){
-  //   this.navCtrl.pop();
-  // }
+  backhome(){
+    this.navCtrl.pop();
+  }
   
 }
