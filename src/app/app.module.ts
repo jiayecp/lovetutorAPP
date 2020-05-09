@@ -13,7 +13,8 @@ import {ApplystuPage} from '../pages/applystu/applystu';
 import {ApplyteachPage} from '../pages/applyteach/applyteach';
 import {FeedbackPage} from '../pages/feedback/feedback';
 import {WechatPage} from '../pages/wechat/wechat';
-import {TeanewsPage} from '../pages/teanews/teanews'
+import {TeanewsPage} from '../pages/teanews/teanews';
+import {ReservePage} from '../pages/reserve/reserve';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -31,7 +32,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ApplyteachPage,
     FeedbackPage,
     WechatPage,
-    TeanewsPage
+    TeanewsPage,
+    ReservePage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +52,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ApplyteachPage,
     FeedbackPage,
     WechatPage,
-    TeanewsPage
+    TeanewsPage,
+    ReservePage
   ],
   providers: [
     StatusBar,

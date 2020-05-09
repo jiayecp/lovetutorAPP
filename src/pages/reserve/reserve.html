@@ -1,0 +1,44 @@
+<ion-header class="header">
+    <ion-icon name="ios-arrow-back" class="back" (click)="backhome()"></ion-icon>
+    <p>请家教<p>
+</ion-header>
+<ion-content>
+    <div class="care">
+        <p>您将要预约的杨老师的编号是89432，请认真填写一下详细信息(*为必填)</p>
+    </div>
+    <div class="title">
+        <p>&nbsp;&nbsp;&nbsp;请填以下信息</p>
+    </div>
+    <div class="mymes">
+        <ul>
+            <li><b class="red">*</b> 联系人: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 移动电话: <input type="text" class="intext"></li>
+            <li><b class="red">*</b>详细地址: <select name="" id="diqv"></select></li>
+            <li><b class="red">*</b> 地区: <input type="text" class="intext"></li>
+        </ul>
+    </div>
+    <div class="mes">
+        <ul>
+            <li>
+                <b class="red">*</b> 性别: 
+                <input type="radio" name="sex" checked="checked" class="isex">男
+                <input type="radio" name="sex" class="isex">女
+            </li>
+            <li><b class="red">*</b> 学员年级: <select name="1" id="cla" ></select></li>
+            <li><b class="red">*</b>辅导科目: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 上课时间: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 学员情况: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 教员要求: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 辅导方式:<br> 
+                <input type="radio" class="fangshi">本人上门<br>
+                <input type="radio" class="fangshi">学生上门<br>
+                <input type="radio" class="fangshi">网上辅导
+            </li>
+            <li><b class="red">*</b> 收费要求: <input type="text" class="intext" value="面议"></li>
+        </ul>
+    </div>
+    <div class="niu">
+        <button class="push">立即申请</button>
+    </div>
+    
+</ion-content>

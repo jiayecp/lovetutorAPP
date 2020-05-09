@@ -1,0 +1,100 @@
+.header{
+    width:100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    line-height: 40px;
+    background: #66B3FF;
+    .back{
+        font-size: 25px;
+        float: left;
+        line-height: 40px;
+        margin-left: 5px;
+    }
+}
+.care{
+    border: 1px solid #ADADAD ;
+    background-color: #FFFFAA;    
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 90%;
+    left: 5%;
+}
+.title{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: black;
+    background-color: #9B9B9B;    
+}
+.mymes{
+    width: 90%;
+    height: 190px;
+    left: 5%;
+    border: 1px solid #ADADAD ;
+    margin-top: 5px;
+    li{
+        margin:12px 0px 0px -28px ;
+        padding-bottom: 7px;
+        // margin-left: -28px;
+        width: 100%;
+        border-bottom: dashed 1px #E0E0E0 ;
+    }
+    .red{
+        color: red;;
+    }
+    .intext{
+        width: 70%;
+        float:right;  
+    }
+    #diqv{
+        width: 50px;
+        margin-left: 20px;
+    }
+}
+.mes{
+    width: 90%;
+    height: 420px;
+    left: 5%;
+    border: 1px solid #ADADAD ;
+    margin-top: 5px;
+    li{
+        margin:12px 0px 0px -28px ;
+        padding-bottom: 7px;
+        // margin-left: -28px;
+        width: 100%;
+        border-bottom: dashed 1px #E0E0E0 ;
+    }
+    .red{
+        color: red;;
+    }
+    .intext{
+        width: 70%;
+        float:right;  
+    }
+    .isex{
+        margin-left: 30px;
+    }
+    #cla{
+        width: 50px;
+        margin-left: 20px;
+    }
+    .fangshi{
+        margin-left: 45px;
+        margin-top: 10px ;
+    }
+}
+.niu{
+    width: 100%;
+    .push{
+        background-color: #FFA500;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 15px;
+        border-radius: 5%;
+        height: 40px;
+        color: white;
+        font-size: 20px;
+    }
+}
