@@ -1,0 +1,143 @@
+.header{
+    width:100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    background: #66B3FF;
+    .back{
+        font-size: 25px;
+        float: left;
+        line-height: 40px;
+        margin-left: 5px;
+    }
+}
+.headim{
+    width: 100%;
+    background-image: url(../../assets/imgs/bg02.jpg);
+    height: 110px;
+    img{
+        width: 80px;
+        border-radius: 50%;
+        float: left;
+        margin:15px 0 0 20px;
+    }
+    .hrig{
+        float: left;
+        margin: 25px;
+        font-size: 16px;
+    }
+    .hname{
+        margin-top: 10px;
+    }
+}
+.teanew{
+    width: 100%;
+    margin-top: 10px;
+    height: 320px;
+    .unew{
+        width: 100%;
+        height: 250px;
+        font-size: 16px;
+        li{
+            width: 94%;
+            height: 30px;
+            margin-top: 5px;
+            margin-left: -3%;
+            border-bottom: 1px dashed #808080	;
+        }
+        .zilef{
+            float: left;
+            // margin-left: -15px;
+        }
+        .zico{
+            width: 60%;
+            float: left;
+            margin-left: 20px;
+            color: 	#696969;
+        }
+    }
+    .ubut{
+        width: 100%;
+        margin-top: 35px;
+        .takequs{
+            width: 30%;
+            background: #32CD32;
+            color: white;
+            float: left;
+            height: 36px;
+            border-radius: 10%;
+            margin-top: 5px ;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+        .onlinetea{
+            width: 30%;
+            background: #FFA500; 
+            color: white;
+            float: left;  
+            height: 36px;
+            border-radius: 10%;
+            // margin: 5px 5% 0 5%;
+            margin: 5px ;
+            font-size: 16px;
+        }
+        .shou{
+            width: 23%;
+            background: #C0C0C0;
+            color:black;
+            float: left;
+            height: 36px;
+            border-radius: 10%;
+            margin: 5px ;
+            font-size: 16px;
+        }
+    }
+}
+.fengxi{
+    width: 100%;
+    height: 10px;
+    background: #DCDCDC	;
+    margin-top: 10px;
+}
+.botnew{
+    width: 100%;
+    font-size: 16px;
+    height: 240px;
+    li{
+        width: 94%;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: -3%;
+        border-bottom: 1px dashed #808080	;
+    }
+    .zilef{
+        float: left;
+    }
+    .zico{
+        width: 61%;
+        float: left;
+        margin-left: 20px;
+        color: 	#696969;
+    }
+}
+.record{
+    font-size: 16px;
+    .ion{
+        float: left;
+        font-size: 22px;
+        color: #FFA500;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .rtit{
+        float: left;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .dingdan{
+        float: left;
+        margin-left: 12px;
+    }
+}
