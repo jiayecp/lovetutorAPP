@@ -1,7 +1,178 @@
 <ion-header class="header">
-    <ion-icon name="ios-arrow-back" class="back"></ion-icon>
+    <ion-icon name="ios-arrow-back" class="back" (click)="backhome()"></ion-icon>
     <p>做家教<p>
 </ion-header>
-<ion-content padding>
- 
+<ion-content >
+    <div class="care">
+        <p>欢迎您注册爱家教教师。为了更好的找到适合您的工作和为您服务。请您仔细填写下面得到内容。(*为必填)</p>
+    </div>
+    <div class="title">
+        <p>&nbsp;&nbsp;&nbsp;请填写用户名 身份 密码</p>
+    </div>
+    <div class="mymes">
+        <ul>
+            <li><b class="red">*</b> 手机号: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 用户名:<input type="text" class="intext"></li>
+            <li><b class="red">*</b>密码: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 确认密码: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 选择问题: <br>
+                <input type="radio" class="inradio" name="identity" checked="checked" value="在校大学生(研究生)，不含外籍留学生">在校大学生(研究生)，不含外籍留学生<br>
+                <input type="radio" class="inradio" name="identity" value="教师(在职/离职/进修/退休)">教师(在职/离职/进修/退休)<br>
+                <input type="radio" class="inradio" name="identity" value="外籍人士(含外籍留学生，外籍教师)">外籍人士(含外籍留学生，外籍教师)<br>
+                <input type="radio" class="inradio" name="identity" value="海归人员(海外工作，留学的归国人员)">海归人员(海外工作，留学的归国人员)<br>
+                <input type="radio" class="inradio" name="identity" value="其他(已经毕业离校人员)">其他(已经毕业离校人员)
+            </li>
+            <li>
+                <b class="red">*</b> 姓名: <input type="text" class="intext">
+                <p class="redcare">请填写真实姓名</p>
+            </li>
+            <li><b class="red">*</b> 性别: 
+                <input type="radio" name="sex" checked="checked" class="isex">男
+                <input type="radio" name="sex" class="isex">女
+            </li>
+            <li><b class="red">*</b> 出生日期: 
+                <select>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997年</option>
+                    <option value="1998">1998年</option>
+                    <option value="1998">1999年</option>
+                    <option value="2000">2000年</option>
+                    <option value="2001">2001年</option>
+                    <option value="2002">2002年</option>
+                </select>
+                <select>
+                    <option value="1">1月</option>
+                    <option value="2">2月</option>
+                    <option value="3">3月</option>
+                    <option value="4">4月</option>
+                    <option value="5">5月</option>
+                    <option value="6">6月</option>
+                    <option value="7">7月</option>
+                    <option value="1">8月</option>
+                    <option value="2">9月</option>
+                    <option value="3">10月</option>
+                    <option value="4">11月</option>
+                    <option value="5">12月</option>
+                </select>
+                <select>
+                    <option value="1">1日</option>
+                    <option value="2">2日</option>
+                    <option value="3">3日</option>
+                    <option value="4">4日</option>
+                    <option value="5">5日</option>
+                    <option value="6">6日</option>
+                    <option value="7">7日</option>
+                    <option value="8">8日</option>
+                    <option value="9">9日</option>
+                    <option value="10">10日</option>
+                    <option value="11">11日</option>
+                    <option value="12">12日</option>
+                    <option value="13">13日</option>
+                    <option value="14">14日</option>
+                    <option value="15">15日</option>
+                    <option value="16">16日</option>
+                    <option value="17">17日</option>
+                    <option value="18">18日</option>
+                    <option value="19">19日</option>
+                    <option value="20">20日</option>
+                    <option value="21">21日</option>
+                    <option value="22">22日</option>
+                    <option value="23">23日</option>
+                    <option value="24">24日</option>
+                    <option value="25">25日</option>
+                    <option value="26">26日</option>
+                    <option value="27">27日</option>
+                    <option value="28">28日</option>
+                    <option value="29">29日</option>
+                    <option value="30">30日</option>
+                </select>
+            </li>
+            <li><b class="red">*</b> 出生地: 
+                <select id="sheng">
+                    <option value="1">北京</option>
+                    <option value="2">天津</option>
+                    <option value="3">上海</option>
+                    <option value="4">重庆</option>
+                    <option value="5">河北</option>
+                    <option value="6">山西</option>
+                    <option value="7">四川</option>
+                    <option value="1">辽宁</option>
+                    <option value="2">湖北</option>
+                    <option value="3">湖南</option>
+                    <option value="4">山东</option>
+                    <option value="5">浙江</option>
+                </select>
+            </li>
+            <li><b class="red">*</b> 学历: &nbsp;
+                <select id="xueli">
+                    <option value="1">本科</option>
+                    <option value="2">硕士</option>
+                    <option value="3">博士</option>
+                    <option value="4">专科</option>
+                </select>
+            </li>
+            <li><b class="red">*</b> 身份证: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 专业: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 生活住所: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 通讯地址: <input type="text" class="intext"></li>
+        </ul>
+    </div>
+    <div class="title">
+        <p>&nbsp;&nbsp;&nbsp;请填写教授科目及薪水要求</p>
+    </div>
+    <div class="subject">
+        <ul>
+            <li><b class="red">*</b> 可教科目:
+                <select  id="canteac">
+                    <option value="1">数学</option>
+                    <option value="2">语文</option>
+                    <option value="3">英语</option>
+                    <option value="4">化学</option>
+                    <option value="5">物理</option>
+                    <option value="6">历史</option>
+                    <option value="7">生物</option>
+                    <option value="8">政治</option>
+                    <option value="9">地理</option>
+                </select>
+            </li>
+            <li><b class="red">*</b> 其他科目: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 可授课区域: 
+                <select id="qvyu">
+                    <option value="1">裕华区</option>
+                    <option value="1">桥西区</option>
+                </select>
+            </li>
+            <li><b class="red">*</b> 区域要求: <input type="text" class="intext"></li>
+            <li><b class="red">*</b> 薪水要求: <input type="text" class="intext"></li>
+        </ul>
+    </div>
+    <div class="title">
+        <p>&nbsp;&nbsp;&nbsp;请上传简历</p>
+    </div>
+    <div class="vita">
+        <ul>
+            <li> 简历上传:
+                <input type="file" class="intext">
+            </li>
+        </ul>
+    </div>
+    <div class="title">
+        <p>&nbsp;&nbsp;&nbsp;设置辅导方式和简历状态</p>
+    </div>
+    <div class="fang">
+        <ul>
+            <li><b class="red">*</b> 辅导方式:<br> 
+                <input type="radio" class="fangshi">本人上门<br>
+                <input type="radio" class="fangshi">学生上门<br>
+                <input type="radio" class="fangshi">网上辅导
+            </li>
+            <li><b class="red">*</b> 简历状态:<br>  
+                <input type="radio" name="jianli" checked="checked" class="injian">公开简历<br> 
+                <input type="radio" name="jianli" class="injian">不公开简历
+            </li>
+        </ul>
+    </div>
+    <div class="niu">
+        <button class="push">提交</button>
+    </div>
 </ion-content>

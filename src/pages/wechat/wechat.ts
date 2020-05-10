@@ -2,15 +2,15 @@ import { Component} from '@angular/core';
 import {  NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-applystu',
-  templateUrl: 'applyteach.html'
+  selector: 'page-wechat',
+  templateUrl: 'wechat.html'
 })
-export class ApplyteachPage {
+export class WechatPage {
   
   constructor(public navCtrl: NavController) {
   }
-  backhome(){
-    this.navCtrl.pop();
+  backchat(){
+      this.navCtrl.pop();
   }
   
 }

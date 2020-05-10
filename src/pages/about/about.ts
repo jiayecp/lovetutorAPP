@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import {ChatPage} from '../chat/chat' 
+import {TeanewsPage} from '../teanews/teanews' ;
 @Component({
   selector: 'page-about',
   templateUrl: 'about.html'
@@ -11,7 +11,7 @@ export class AboutPage {
 
   }
   pushSearch(){
-    this.navCtrl.push(ChatPage);
+    this.navCtrl.push(TeanewsPage);
   }
 
 }

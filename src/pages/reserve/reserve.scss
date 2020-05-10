@@ -3,7 +3,7 @@
     height: 40px;
     color: white;
     text-align: center;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 40px;
     background: #66B3FF;
     .back{
@@ -30,7 +30,7 @@
 }
 .mymes{
     width: 90%;
-    height: 740px;
+    height: 190px;
     left: 5%;
     border: 1px solid #ADADAD ;
     margin-top: 5px;
@@ -48,97 +48,47 @@
         width: 70%;
         float:right;  
     }
-    .inradio{
-        margin-left: 45px;
-        margin-top: 10px // width: 80%;;
+    #diqv{
+        width: 50px;
+        margin-left: 20px;
     }
-    .redcare{
-        text-align: center;
-        color: red;
-        margin-top: 5px;
+}
+.mes{
+    width: 90%;
+    height: 420px;
+    left: 5%;
+    border: 1px solid #ADADAD ;
+    margin-top: 5px;
+    li{
+        margin:12px 0px 0px -28px ;
+        padding-bottom: 7px;
+        // margin-left: -28px;
+        width: 100%;
+        border-bottom: dashed 1px #E0E0E0 ;
+    }
+    .red{
+        color: red;;
+    }
+    .intext{
+        width: 70%;
+        float:right;  
     }
     .isex{
         margin-left: 30px;
     }
-    #sheng{
-        margin-left: 12px;
+    #cla{
+        width: 50px;
+        margin-left: 20px;
     }
-    #xueli{
-        margin-left: 16px;
-    }
-   
-}
-.subject{
-    width: 90%;
-    height: 220px;
-    left: 5%;
-    border: 1px solid #ADADAD ;
-    margin-top: 10px;
-    
-    li{
-        margin:12px 0px 0px -28px ;
-        padding-bottom: 7px;
-        width: 100%;
-        border-bottom: dashed 1px #E0E0E0 ;
-    }
-    .red{
-        color: red;;
-    }
-    #canteac{
-        margin-left:15px;
-    }
-    .intext{
-        width: 70%;
-        float:right;  
-    }
-    .add{
-        width: 100%;
-    }
-}
-.vita{
-    width: 90%;
-    height: 48px;
-    left: 5%;
-    border: 1px solid #ADADAD ;
-    margin-top: 10px;
-    li{
-        margin:12px 0px 0px -28px ;
-        padding-bottom: 7px;
-        width: 100%;
-    }
-    .intext{
-        width: 70%;
-        float:right;  
-    }
-}
-.fang{
-    width: 90%;
-    height: 210px;
-    left: 5%;
-    border: 1px solid #ADADAD ;
-    margin-top: 10px;
-    li{
-        margin:12px 0px 0px -28px ;
-        padding-bottom: 7px;
-        width: 100%;
-        border-bottom: dashed 1px #E0E0E0 ;
-    }
-    .red{
-        color: red;;
-    }
-    .injian{
+    .fangshi{
         margin-left: 45px;
         margin-top: 10px ;
-     }
-     .fangshi{
-        margin-left: 45px;
-        margin-top: 10px ;
-     }
+    }
 }
 .niu{
     width: 100%;
     .push{
-        background-color: #00BB00;
+        background-color: #FFA500;
         width: 90%;
         margin-left: 5%;
         margin-top: 15px;
