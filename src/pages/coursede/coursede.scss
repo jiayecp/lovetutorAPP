@@ -1,0 +1,59 @@
+page-coursede{
+    .one{
+        width:100%;
+        height:20rem;
+        border: #D1D0CE solid 1px;
+    }
+    .two{
+        margin-top: 1rem;
+    }
+    .three{
+        width: 100%;
+            margin: 0 auto;
+            height: 12rem;
+            margin-top: 1rem;
+            .tuoxiang{
+                margin-top: 1.5rem;
+                margin-left: 1rem;
+                float: left;
+                width: 15%;
+                .pimg{
+                    border-radius: 50%;
+                    line-height: 20%;
+                    // width: 30%;
+                }
+            }
+            .lefcon{
+                margin-top: 1.8rem;
+                float: left;
+                width: 65%;
+                margin-left: 3%;
+                .topm{
+                    p{
+                        float: left;
+                    }
+                 .money{
+                    margin-left: 12rem;
+                    color: #00BB00;
+                    font-size: 2rem;
+                 }
+                 .mon{
+                     float: right;
+                     width:8rem;
+                     height: 4rem;
+                     font-size: 1.5rem;
+                     color: white;
+                     text-align: center;
+                     line-height: 4rem;
+                     background-color: #FFA500;
+                     margin-top: -3rem;
+                     margin-right: -4rem;
+
+                 }
+                }
+            }
+        }
+    .five{
+        margin-top: 2rem;
+    }
+}

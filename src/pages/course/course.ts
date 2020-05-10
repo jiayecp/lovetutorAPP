@@ -12,5 +12,5 @@ export class CoursePage {
   backhome(){
       this.navCtrl.pop();
   }
-  
+ 
 }
