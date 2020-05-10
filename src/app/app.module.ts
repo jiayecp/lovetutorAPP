@@ -15,6 +15,8 @@ import {FeedbackPage} from '../pages/feedback/feedback';
 import {WechatPage} from '../pages/wechat/wechat';
 import {TeanewsPage} from '../pages/teanews/teanews';
 import {ReservePage} from '../pages/reserve/reserve';
+import {CoursePage} from '../pages/course/course';
+import {CoursedePage} from '../pages/coursede/coursede';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -33,7 +35,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FeedbackPage,
     WechatPage,
     TeanewsPage,
-    ReservePage
+    ReservePage,
+    CoursePage,
+    CoursedePage
   ],
   imports: [
     BrowserModule,
@@ -53,7 +57,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FeedbackPage,
     WechatPage,
     TeanewsPage,
-    ReservePage
+    ReservePage,
+    CoursePage,
+    CoursedePage
   ],
   providers: [
     StatusBar,
