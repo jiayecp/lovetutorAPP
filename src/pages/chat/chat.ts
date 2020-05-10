@@ -12,7 +12,7 @@ export class ChatPage {
   pushchat(){
     this.navCtrl.push(WechatPage);
   }
-  // close(){
-  //   this.navCtrl.pop();
-  // }
+  close(){
+     this.navCtrl.pop();
+   }
 }

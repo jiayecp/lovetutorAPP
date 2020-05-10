@@ -1,5 +1,6 @@
 import { Component} from '@angular/core';
 import {  NavController } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 @Component({
   selector: 'page-applystu',
@@ -13,5 +14,7 @@ export class ApplystuPage {
  close(){
     this.navCtrl.pop();
   }
-  
+  pushHome(){
+    this.navCtrl.push(HomePage);
+  }
 }
