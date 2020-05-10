@@ -1,5 +1,6 @@
 import { Component} from '@angular/core';
 import {  NavController } from 'ionic-angular';
+import { MyPage } from '../my/my';
 
 @Component({
   selector: 'page-feedback',
@@ -9,8 +10,12 @@ export class FeedbackPage {
   
   constructor(public navCtrl: NavController) {
   }
-  // setBackButtonText(){
-  //   this.navCtrl.pop();
-  // }
+  
+  close(){
+    this.navCtrl.pop();
+  }
+  pushMy(){
+    this.navCtrl.push(MyPage);
+  }
   
 }
