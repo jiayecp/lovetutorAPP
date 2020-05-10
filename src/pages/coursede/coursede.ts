@@ -3,13 +3,13 @@ import {  NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-coursede',
-  templateUrl: 'course.html'
+  templateUrl: 'coursede.html'
 })
 export class CoursedePage {
   
   constructor(public navCtrl: NavController) {
   }
-  backchat(){
+  backhome(){
       this.navCtrl.pop();
   }
   

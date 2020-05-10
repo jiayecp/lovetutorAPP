@@ -9,7 +9,7 @@ export class CoursePage {
   
   constructor(public navCtrl: NavController) {
   }
-  backchat(){
+  backhome(){
       this.navCtrl.pop();
   }
   
