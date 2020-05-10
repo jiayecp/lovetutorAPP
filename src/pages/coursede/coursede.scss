@@ -54,6 +54,36 @@ page-coursede{
             }
         }
     .five{
-        margin-top: 2rem;
+        margin-top: 1rem;
+        h5{
+            color: #FFA500;
+        }
+    }
+    .four{
+        margin-top: 6rem;
+        h5{
+            color: #FFA500;
+        }
+    }
+    .six{
+        p{
+            color: #00BB00;
+        }
+        ul{
+            margin-top: 2rem;
+            margin-left: -4rem;
+            li{
+                margin: 0 1rem 0 2%;
+                .lubo{
+                    width:4rem;
+                    height: 2.5rem;
+                    line-height: 2.5rem;
+                    text-align: center;
+                    background-color:rgba(0,0,0,0.1);
+                    border-radius: 15px;
+                }
+            }
+       
+    }
     }
 }
