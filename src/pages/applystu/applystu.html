@@ -1,6 +1,57 @@
 <ion-header class="header">
-       <h1>我是学员</h1>
-  </ion-header>
-  <ion-content padding>
-    
-  </ion-content>
+  <ion-icon name="ios-arrow-back" class="back" (click)="close()"></ion-icon>
+  <p>请家教<p>
+</ion-header>
+<ion-content padding>
+  <div class="title">请填写以下信息（<span>*</span>为必填）</div>
+  <div class="content1">
+    <div class="content-datil"><span>*</span>联系人
+      <input type="text" class="text"/>
+    </div>
+    <div class="content-datil"><span>*</span>联系方式
+      <input type="text" class="text"/>
+    </div>
+    <div class="content-datil">
+      您所在地区
+      <ion-list>
+        <ion-item>
+          <ion-label>请选择</ion-label>
+          <ion-select [(ngModel)]="gaming">
+            <ion-option value="nes">裕华区</ion-option>
+            <ion-option value="n64">长安区</ion-option>
+            <ion-option value="ps">桥西区</ion-option>
+            <ion-option value="genesis">新华区</ion-option>
+            <ion-option value="saturn">鹿泉区</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+    </div>
+    <div class="content-datil2">
+      详细地址
+      <textarea class="text2"></textarea>
+    </div>
+  </div>
+  <div class="content2">
+    <div class="content-datil">学员性别
+        <label><input type="radio" name="sex" value="男生">男</label>
+        <label><input type="radio" name="sex" value="女生">女</label>    
+    </div>
+    <div class="content-datil"><span>*</span>
+        学员年级
+        <input type="text" class="text"/>
+      </div>
+      <div class="content-datil"><span>*</span>求教科目
+        <input type="text" class="text"/>
+      </div>
+      <div class="content-datil">可上课时间
+        <input type="text" class="text"/>
+      </div>
+      <div class="content-datil">学员情况描述
+          <input type="text" class="text"/>
+      </div>
+      <div class="content-datil">对教员要求
+          <textarea class="text2"></textarea>
+      </div>
+  </div>
+  <button ion-button outline>Primary Outline</button>
+</ion-content>

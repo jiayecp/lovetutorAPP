@@ -9,8 +9,9 @@ export class ApplystuPage {
   
   constructor(public navCtrl: NavController) {
   }
-  // setBackButtonText(){
-  //   this.navCtrl.pop();
-  // }
+
+ close(){
+    this.navCtrl.pop();
+  }
   
 }
