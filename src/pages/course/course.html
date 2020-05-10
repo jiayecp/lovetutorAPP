@@ -3,5 +3,152 @@
     <p>课程<p>
 </ion-header>
 <ion-content>
-    
+    <div class="xuanze">
+        <div class="one">
+            <select name="kemu" id="kemu">
+                <option value="1">数学</option>
+                <option value="2">语文</option>
+                <option value="3">英语</option>
+                <option value="4">物理</option>
+                <option value="5">化学</option>
+                <option value="6">历史</option>
+                <option value="7">地理</option>
+            </select>
+        </div>
+        <div class="two">
+            <select name="nianji" id="kemu">
+                <option value="1">一年级</option>
+                <option value="2">二年级</option>
+                <option value="3">三年级</option>
+                <option value="4">四年级</option>
+                <option value="5">五年级</option>
+                <option value="6">六年级</option>
+                <option value="7">初一</option>
+                <option value="8">初二</option>
+                <option value="9">初三</option>
+                <option value="10">高一</option>
+                <option value="11">高二</option>
+                <option value="12">高三</option>
+            </select>
+        </div>
+        <div class="three">
+            <select name="paixu" id="kemu">
+                <option value="1">综合排序</option>
+                <option value="2">热度排序</option>
+            </select>
+        </div>
+    </div>
+    <div class="courses" (click)="pushcoursede()">
+        <div class="first">
+            <div class="clef">
+                <img src="../../assets/imgs/course1.jpg" alt="" class="cimg">
+            </div>
+            <div class="crig">
+                <b class="ctit">小学数学题目精讲</b>
+                <div class="ccen">
+                    <img src="../../assets/imgs/logovi.png" alt="" class="clogo">
+                    <p class="miao">￥8.00 小学数学|10节课</p>
+                </div>
+                <p>数学广角----找次品</p>
+                <p>参加学校微课大赛二等奖</p>
+            </div>
+        </div>
+    </div>
+    <div class="courses" (click)="pushcoursede()">
+        <div class="first">
+            <div class="clef">
+                <img src="../../assets/imgs/course2.png" alt="" class="cimg">
+            </div>
+            <div class="crig">
+                <b class="ctit">思源小学三年级数学</b>
+                <div class="ccen">
+                    <img src="../../assets/imgs/logovi.png" alt="" class="clogo">
+                    <p class="miao">￥10.00 小学数学|20节课</p>
+                </div>
+                <p>思源小学优秀课程</p>
+                <p>三年级数学精讲</p>
+            </div>
+        </div>
+    </div>
+    <div class="courses" (click)="pushcoursede()">
+        <div class="first">
+            <div class="clef">
+                <img src="../../assets/imgs/course3.jpg" alt="" class="cimg">
+            </div>
+            <div class="crig">
+                <b class="ctit">人教版小学数学课程</b>
+                <div class="ccen">
+                    <img src="../../assets/imgs/logovi.png" alt="" class="clogo">
+                    <p class="miao">￥16.00 人教版数学|9节课</p>
+                </div>
+                <p>优秀试讲课程</p>
+                <p>五年级配套习题精讲</p>
+            </div>
+        </div>
+    </div>
+    <div class="courses" (click)="pushcoursede()">
+        <div class="first">
+            <div class="clef">
+                <img src="../../assets/imgs/course4.jpg" alt="" class="cimg">
+            </div>
+            <div class="crig">
+                <b class="ctit">小学二年级数学课程</b>
+                <div class="ccen">
+                    <img src="../../assets/imgs/logovi.png" alt="" class="clogo">
+                    <p class="miao">￥2.00 人教版数学|1节课</p>
+                </div>
+                <p>除法的认识</p>
+                <p>附加课后习题讲解</p>
+            </div>
+        </div>
+    </div>
+    <div class="courses" (click)="pushcoursede()">
+        <div class="first">
+            <div class="clef">
+                <img src="../../assets/imgs/course6.png" alt="" class="cimg">
+            </div>
+            <div class="crig">
+                <b class="ctit">小升初数学考点精讲</b>
+                <div class="ccen">
+                    <img src="../../assets/imgs/logovi.png" alt="" class="clogo">
+                    <p class="miao">￥30.00 数学考点|8节课</p>
+                </div>
+                <p>小学数学复习</p>
+                <p>小升初数学考点讲解</p>
+            </div>
+        </div>
+    </div>
+    <div class="courses" (click)="pushcoursede()">
+        <div class="first">
+            <div class="clef">
+                <img src="../../assets/imgs/course7.jpg" alt="" class="cimg">
+            </div>
+            <div class="crig">
+                <b class="ctit">小学数学学科专业知识</b>
+                <div class="ccen">
+                    <img src="../../assets/imgs/logovi.png" alt="" class="clogo">
+                    <p class="miao">￥24.00 数学知识|10节课</p>
+                </div>
+                <p>小学数学</p>
+                <p>小学数学学科专业知识</p>
+            </div>
+        </div>
+    </div>
+    <div class="courses" (click)="pushcoursede()">
+        <div class="first">
+            <div class="clef">
+                <img src="../../assets/imgs/course8.jpg" alt="" class="cimg">
+            </div>
+            <div class="crig">
+                <b class="ctit">高思学校竞赛学术</b>
+                <div class="ccen">
+                    <img src="../../assets/imgs/logovi.png" alt="" class="clogo">
+                    <p class="miao">￥149.00 数学竞赛|43节课</p>
+                </div>
+                <p>小学数学竞赛课程</p>
+                <p>数学竞赛考题分析讲解</p>
+            </div>
+        </div>
+    </div>
+
 </ion-content>

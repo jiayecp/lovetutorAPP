@@ -1,0 +1,55 @@
+ .xuanze{
+     width: 100%;
+     height: 30px;
+    .one{
+        float: left;
+    }
+    .two{
+        float: left;
+    }
+    .three{
+        float: left;
+    }
+    #kemu{
+        width: 125px;
+        height: 30px;
+        font-size: 15px;
+    }
+    
+}
+.courses{
+    // width: 94%;
+    // margin-left: 3%;
+    height: 95px;
+    border-bottom: 1px dashed 	#C0C0C0;
+    .first{
+        margin-top: 10px;
+        .clef{
+            .cimg{
+                width:150px;
+                float: left;
+                margin-left: 12px
+            }
+        }
+        .crig{
+            float: left;
+            width: 200px;
+            margin-left: 7px;
+            .ctit{
+                margin-top: -10px;
+            }
+            .ccen{
+                margin:10px 0 5px 0;
+                .clogo{
+                    width: 18px;
+                    font-size: 17px;
+                    float: left;
+                }
+                .miao{
+                    float: left;
+                }
+            }
+        }
+    }
+
+}
